@@ -1,0 +1,160 @@
+/* Style général pour le corps de la page */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color:#8A7090 ;
+    color:#7EBDC2 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style pour les conteneurs de formulaires */
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style pour chaque formulaire individuel */
+.form {
+    background-color: #8D3B72;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* Style pour les étiquettes des formulaires */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style pour les champs de saisie des formulaires */
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* Style pour les boutons des formulaires */
+button {
+    background-color: #7EBDC2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9AC4F8;
+}
+
+/* Style pour la sélection d'image */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour l'affichage de l'image sélectionnée */
+#image {
+    margin-top: 20px;
+}
+
+#image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: blue;
+}
+
+/* Twitter */
+.fa-twitter{
+    font-family:sans-serif;
+    color: whitesmoke;
+
+}
+.fa-twitter::before{
+    content:"𝕏";
+    font-size:1.2em;
+
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: mediumpurple;
+}
+
+
+.login-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.login-button .btn {
+    background-color: #f1c40f;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.login-button .btn:hover {
+    background-color: #d4ac0d;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+
